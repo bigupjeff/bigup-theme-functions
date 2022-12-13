@@ -4,7 +4,7 @@ namespace Bigup\Theme_Functions;
 /**
  * Plugin Name: Bigup Web: Theme Functions
  * Plugin URI: https://jeffersonreal.uk
- * Description: Enables the easy addition of theme functions.
+ * Description: Enable the easy addition of theme functions.
  * Version: 0.0.1
  * Author: Jefferson Real
  * Author URI: https://jeffersonreal.uk
@@ -25,14 +25,14 @@ namespace Bigup\Theme_Functions;
  * write relative file references, making code portable.
  */
 $url = plugin_dir_url( __FILE__ );
-define( 'bigup_theme_functions_PLUGIN_URL', $url );
+define( 'BIGUP_THEME_FUNCTIONS_PLUGIN_URL', $url );
 $path = plugin_dir_path( __FILE__ );
-define( 'bigup_theme_functions_PLUGIN_PATH', $path );
+define( 'BIGUP_THEME_FUNCTIONS_PLUGIN_PATH', $path );
 
 /**
  * Load PHP autoloader to ready the classes.
  */
-require_once( plugin_dir_path( __FILE__ ) . 'classes/autoload.php');
+require_once( BIGUP_THEME_FUNCTIONS_PLUGIN_PATH . 'classes/autoload.php');
 
 /**
  * Init class which in turn calls all plugin dependencies.

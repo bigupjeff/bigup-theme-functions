@@ -144,7 +144,7 @@ class Admin_Settings {
      * Output Form Fields - SMTP Account Settings
      */
     public function echo_field_bigup_functions() {
-        echo '<textarea rows="25" cols="100" name="bigup_functions" id="bigup_functions" value="' . get_option('bigup_functions') . '">' . get_option('bigup_functions') . '</textarea>';
+        echo '<textarea class="pre code codeHighlight" rows="15" cols="100" name="bigup_functions" id="bigup_functions" value="' . get_option('bigup_functions') . '">' . get_option('bigup_functions') . '</textarea>';
     }
 
     /**

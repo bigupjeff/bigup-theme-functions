@@ -1,0 +1,13 @@
+/**
+ * Bigup Theme Functions - Admin Styles.
+ *
+ * @package bigup_theme_functions
+ * @author Jefferson Real <me@jeffersonreal.uk>
+ * @copyright Copyright (c) 2021, Jefferson Real
+ * @license GPL2+
+ * @link https://jeffersonreal.uk
+ */
+
+ .code {
+	font-family: monospace;
+ }
