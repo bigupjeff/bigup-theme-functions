@@ -52,7 +52,7 @@ class Admin_Settings {
      * Init the class by hooking into the admin interface.
      */
     public function __construct() {
-		add_action( 'bigup_plugin_settings_dashboard_entry', [ &$this, 'echo_plugin_settings_link' ] );
+		add_action( 'bigup_settings_dashboard_entry', [ &$this, 'echo_plugin_settings_link' ] );
 		new Admin_Settings_Parent();
         add_action( 'admin_menu', [ &$this, 'register_admin_menu' ], 99 );
         add_action( 'admin_init', [ &$this, 'register_settings' ] );
